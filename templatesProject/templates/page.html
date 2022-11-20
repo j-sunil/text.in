@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+</head>
+<body>
+<h1>
+    Enter your Text Below:
+</h1>
+<form action="/analyzer" method="get">
+    <textarea name='text' style='width: 1068px; height: 152px;'></textarea><br>
+    <input type="checkbox" name="removepunc"> Remove Punctutions<br>
+    <input type="checkbox" name="ltou"> Convert to Uppercase <br>
+    <input type="checkbox" name="utol"> Convert to Lowercase <br>
+    <input type="checkbox" name="removenewline"> New Line Removed <br>
+    <input type="checkbox" name="removespace"> Space Removed <br>
+    <button type='submit'> Analyze Text</button>
+</form>
+</body>
+</html>
